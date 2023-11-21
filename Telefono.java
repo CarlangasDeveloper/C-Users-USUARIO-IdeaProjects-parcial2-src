@@ -3,9 +3,9 @@ public class Telefono extends Producto {
     public int capacidad;
     public boolean nuevo;
     public String color;
-    public int tamano;
+    public double tamano;
 
-    public Telefono(String nombre, String descripcion, double precio, int cantidadInventario, String marca, int capacidad, boolean nuevo, String color, int tamano) {
+    public Telefono(String nombre, String descripcion, double precio, int cantidadInventario, String marca, int capacidad, boolean nuevo, String color, double tamano) {
         super(nombre, descripcion, precio, cantidadInventario);
         this.marca = marca;
         this.capacidad = capacidad;
